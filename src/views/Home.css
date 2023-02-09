@@ -1,0 +1,28 @@
+
+
+h1 {
+    font-size: 2.875rem;
+    width: 53rem;
+}
+
+
+.view--home {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.books-container {
+    width: 53rem;
+    height: 31rem;
+    /* border: 1px dashed black; */
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 1rem;
+
+
+}
+

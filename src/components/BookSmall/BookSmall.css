@@ -1,0 +1,53 @@
+.book__inner-container {
+    /* padding: 1rem 1rem 1rem 1.625rem; */
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+
+.book--small::after {
+    content: '';
+    width: 3px;
+    height: 15rem;
+    background: rgb(0 0 0 / 0.4);
+    position: absolute;
+    transform: translateX(8px);
+    top: 0;
+}
+
+
+.book--small {
+    height: 15rem;
+    width: 12.5rem;
+    text-decoration: none;
+
+    
+}
+
+.book--small:hover {
+    cursor: pointer;
+}
+
+
+
+.book--small h2 {
+    font-size: 1.125rem;
+    max-width: 10rem;
+    margin: 0;
+    color: #fff;
+    margin-left: 1.625rem;
+
+}
+
+.book--small p {
+    font-size: 0.625rem;
+    margin: 0;
+    color: #fff;
+
+    margin-bottom: 1rem;
+    margin-left: 1.625rem;
+}
